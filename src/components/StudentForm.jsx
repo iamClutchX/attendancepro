@@ -61,7 +61,9 @@ const StudentForm = () => {
         checkInTime: "",
         checkOutTime: "",
       });
+      setErrors({});
       setStudents([...students, formData]);
+
     } else {
       setErrors(newErrors);
     }
