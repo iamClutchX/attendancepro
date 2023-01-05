@@ -36,6 +36,7 @@ const inputStyles = {
 };
 
 const buttonStyles = {
+  marginTop: "1.5rem",
   display: "block",
   width: "72.5%",
   padding: "0.5rem",

@@ -143,6 +143,7 @@ const StudentForm = () => {
       </div>
 
       <div style={{ flex: 1 }}>
+      <div style={containerStyles}>
         <h1>Student List : Total Students {students.length}</h1>
         {students.map((student) => (
           <div>
@@ -152,6 +153,7 @@ const StudentForm = () => {
             <p>Check Out Time: {student.checkOutTime}</p>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
